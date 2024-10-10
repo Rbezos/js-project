@@ -1,0 +1,23 @@
+#main-footer {
+    .container {
+        background: var(--secondary-color);
+        padding: 1rem;
+        color: white;
+        .title {
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        hr {
+            border: 0.1rem solid white;
+        }
+        .container-list {
+            display: flex;
+            ul {
+                list-style: none;
+            }
+            div {
+                width: 50%;
+            }
+        }
+    }
+}

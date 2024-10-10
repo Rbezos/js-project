@@ -1,0 +1,28 @@
+#main-header {
+    .container {
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: var(--primary-color);
+        padding: 1rem;
+        color: white;
+        font-weight: 600;
+        .enlaces {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        .img_login {
+            width: 2.5rem;
+            cursor: pointer;
+            transition: width 0.3s ease;
+        }
+        .img_login:hover {
+            width: 3rem;
+        }
+    }
+}
