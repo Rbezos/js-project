@@ -1,0 +1,25 @@
+.sidebar {
+    color: white;
+    display: none;
+    background-color: #abee93;
+    text-align: center;
+    color: black;
+    font-size: 0.7rem;
+    min-width: 20rem;
+    height: 100%;
+    border-bottom-right-radius: 0.2rem;
+    font-weight: 700;
+    div {
+        padding: 1rem;
+        border-top: 0.1rem solid white;
+        cursor: pointer;
+        &:hover {
+            background-color: #f0f0f0;
+            color: black;
+        }
+    }
+
+    &.active {
+        display: block;
+    }
+}   

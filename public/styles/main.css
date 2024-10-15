@@ -1,0 +1,6 @@
+#app {
+    .sidebar_container {
+        width: auto;
+        position: absolute;
+    }
+}
