@@ -1,4 +1,6 @@
 #main-header {
+    position: sticky;
+    top: 0;
     .container {
         height: 2.5rem;
         display: flex;
@@ -20,10 +22,11 @@
         .img_login {
             width: 2.5rem;
             cursor: pointer;
-            transition: width 0.3s ease;
+            transition: all 0.3s ease;
         }
         .img_login:hover {
-            width: 3rem;
+            /* width: 3rem; */
+            transform: scale(1.3);
         }
     }
 

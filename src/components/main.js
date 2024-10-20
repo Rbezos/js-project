@@ -22,7 +22,7 @@ export function createMain() {
             <div class="sidebar_container">
             ${sidebar.outerHTML}
             </div>
-            <div>
+            <div class="container">
                 <div id="about_me">
                 ${aboutMe.outerHTML}
                 </div>

@@ -1,6 +1,4 @@
-#app {
-    .sidebar_container {
-        width: auto;
-        position: absolute;
-    }
+.section {
+    padding: 1rem 4rem;
+    border-bottom: 0.1rem solid;
 }

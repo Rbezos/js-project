@@ -1,0 +1,14 @@
+#about_me {
+    .title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        text-align: right;
+    }
+    .img_about_me {
+        width: 30%;
+        img {
+            width: 100%;
+        }
+    }
+}

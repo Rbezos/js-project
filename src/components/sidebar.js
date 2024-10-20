@@ -14,6 +14,7 @@ export function createSidebar() {
             <div>PROYECTOS</div>
             <div>CONTACTO</div>
         </div>
+        <div class="sidebar_overlay"></div>
     `;
 
     return sidebar;

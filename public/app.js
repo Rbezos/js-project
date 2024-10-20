@@ -7,7 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const footer = createFooter();
     const main = createMain();
 
-    document.getElementById('main-header').appendChild(header);
+    document.getElementById('main-header').appendChild(header.html);
     document.getElementById('app').appendChild(main);
     document.getElementById('main-footer').appendChild(footer);
+
+    header.callback();
 });

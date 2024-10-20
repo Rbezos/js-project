@@ -30,11 +30,22 @@ export function createHeader() {
         </div>
     `;
 
-    const btn_burguer_menu = header.querySelector('#burger');
-    btn_burguer_menu.addEventListener('change', () => {
-        const sidebar = document.querySelector('.sidebar');
-        sidebar.classList.toggle('active');
-    });
 
-    return header;
+
+    return {
+        html: header,
+        callback: () => {
+            const btn_burguer_menu = header.querySelector('#burger');
+            btn_burguer_menu.addEventListener('change', () => {
+                const sidebar = document.querySelector('.sidebar');
+                const sidebar_overlay = document.querySelector('.sidebar_overlay');
+                sidebar.classList.toggle('active');
+                sidebar_overlay.classList.toggle('active');
+            });
+            const sidebar_overlay = document.querySelector('.sidebar_overlay');
+            sidebar_overlay.addEventListener('click', () => {
+                btn_burguer_menu.click();
+            });
+        }
+    };
 }
