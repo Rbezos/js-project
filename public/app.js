@@ -8,8 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const main = createMain();
 
     document.getElementById('main-header').appendChild(header.html);
-    document.getElementById('app').appendChild(main);
+    document.getElementById('app').appendChild(main.html);
     document.getElementById('main-footer').appendChild(footer);
 
-    header.callback();
+    header.callback(); 
+    main.callback(); 
 });

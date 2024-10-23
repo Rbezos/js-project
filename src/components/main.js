@@ -27,13 +27,16 @@ export function createMain() {
                 ${aboutMe.outerHTML}
                 </div>
                 <div id="career">
-                ${career.outerHTML}
-                </div>
-                <div id="projects">
-                ${proyects.outerHTML}
+                ${career.html.outerHTML}
                 </div>
             </div>
         </div>
     `;
-    return main;
+
+    return {
+        html: main,
+        callback: () => {
+            career.callback();
+        }
+    }
 }

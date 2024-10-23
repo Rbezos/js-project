@@ -2,6 +2,12 @@
 body {
     --primary-color: #2d938e;
     --secondary-color: #0b4462;
+    --text-color: #1b3034;
+    --light-background: #d1e8e4;
+    --gray-background: #f2f4f3;
+    --contrast-color: #f28f3b;
+    --contrat2-color: #733b5f;
+
 
     height: 100%;
     font-family:'Lato', sans-serif;
