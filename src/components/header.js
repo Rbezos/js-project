@@ -18,11 +18,11 @@ export function createHeader() {
                 </label>
             </div>
             <div class="enlaces">
-                <div>HOME</div>
-                <div>SOBRE MI</div>
-                <div>TRAYECTORIA</div>
-                <div>PROYECTOS</div>
-                <div>CONTACTO</div>
+                <div>Home</div>
+                <div>About me</div>
+                <div>Career</div>
+                <div>Proyects</div>
+                <div>Contact</div>
             </div>
             <div>
                 <img class="img_login" src="../public/assets/login.png" alt="Logo">

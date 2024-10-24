@@ -1,6 +1,6 @@
 #main-footer {
     .container {
-        background: var(--secondary-color);
+        background: var(--primary-color);
         padding: 1rem;
         color: white;
         .title {

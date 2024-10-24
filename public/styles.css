@@ -1,21 +1,24 @@
 
 body {
-    --primary-color: #2d938e;
+    --primary-color: #2d2d2d;
     --secondary-color: #0b4462;
-    --text-color: #1b3034;
+    --text-color: #fafafa;
     --light-background: #d1e8e4;
-    --gray-background: #f2f4f3;
+    --background: #212121;
     --contrast-color: #f28f3b;
     --contrat2-color: #733b5f;
 
-
-    height: 100%;
-    font-family:'Lato', sans-serif;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    margin: 2rem auto;
+    background: var(--background);
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
 }
 
-main {
-    flex: 1;
+@media (max-width: 1400px) {
+    body {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
 }
