@@ -2,21 +2,26 @@
     .container {
         background: var(--primary-color);
         padding: 1rem;
-        color: white;
-        .title {
-            font-weight: 600;
-            text-transform: uppercase;
-        }
-        hr {
-            border: 0.1rem solid white;
-        }
-        .container-list {
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        .container_links {
             display: flex;
-            ul {
-                list-style: none;
-            }
+            align-items: center;
+        }
+        .social_networks {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 1rem;
             div {
-                width: 50%;
+                background-color: red;
+                width: auto;
+                border-radius: 0.2rem;
+                display: flex;
+                align-items: center;
+                padding: 0.2rem;
+                cursor: pointer;
             }
         }
     }

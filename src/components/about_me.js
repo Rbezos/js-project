@@ -54,5 +54,10 @@ export function createAboutMe() {
         </div>
     `;
 
-    return aboutMe;
+    return {
+        html: aboutMe,
+        callback: () => {
+            
+        }
+    };
 }
