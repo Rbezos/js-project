@@ -9,7 +9,7 @@
         justify-content: space-between;
         background: var(--primary-color);
         border-radius: 0.2rem;
-        padding: 1rem;
+        padding: 1rem 10rem;
         color: white;
         font-weight: 600;
         .enlaces {
@@ -18,7 +18,12 @@
             align-items: center;
             gap: 2rem;
             cursor: pointer;
-            font-size: 0.8rem;
+            font-size: 0.9rem;
+            :hover {
+                background: linear-gradient(90deg, rgba(255, 162, 0, 1) 0%, rgba(255, 80, 0, 1) 50%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
         }
         .img_login {
             width: 2.5rem;
