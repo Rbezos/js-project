@@ -47,31 +47,9 @@
             justify-content: space-between;
             gap: 1rem;
             .description_about_me {
-                display: -webkit-box;
-                -webkit-box-orient: vertical;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                -webkit-line-clamp: 3;
                 font-weight: 600;
                 font-size: 0.9em;
                 text-align: justify;
-            }
-            .skills_about_me {
-                display: flex;
-                justify-content: space-around;
-                background-color: var(--gray-background);
-                border-radius: 0.5rem;
-                font-weight: 700;
-                font-size: 0.9rem;
-                text-align: center;
-                div {
-                    padding: 1rem 0;
-                }
-                ul {
-                    list-style: none;
-                    padding: 0px;
-                    margin: 0px;
-                }
             }
         }
     }

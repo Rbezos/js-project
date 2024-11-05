@@ -20,35 +20,6 @@ export function createAboutMe() {
                         me a comprehensive understanding of web development. I am a committed and proactive individual, always eager to
                         deeply engage in projects and explore new technologies that allow me to grow professionally.
                     </div>
-                    <div class="skills_about_me">
-                        <div>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>Angular</li>
-                                <li>Sass</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <ul>
-                                <li>PHP</li>
-                                <li>SQL</li>
-                                <li>Git</li>
-                                <li>WordPress</li>
-                                <li>Drupal</li>
-                            </ul>
-                        </div>
-                        <div style="border: 0px !important;">
-                            <ul>
-                                <li>CodeIgniter</li>
-                                <li>Fast Learning</li>
-                                <li>Adaptability</li>
-                                <li>Problem solving</li>
-                                <li>Team Player</li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

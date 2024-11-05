@@ -1,8 +1,8 @@
-#career { 
+#proyects { 
     .title {
         font-size: 1.5rem;
         font-weight: bold;
         margin-bottom: 1rem;
-        text-align: left;
+        text-align: right;
     }
 }

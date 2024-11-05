@@ -24,10 +24,13 @@ export function createMain() {
             </div>
             <div class="container">
                 <div id="about_me">
-                ${aboutMe.outerHTML}
+                ${aboutMe.html.outerHTML}
                 </div>
                 <div id="career">
                 ${career.html.outerHTML}
+                </div>
+                <div id="proyects">
+                ${proyects.html.outerHTML}
                 </div>
             </div>
         </div>
@@ -36,7 +39,6 @@ export function createMain() {
     return {
         html: main,
         callback: () => {
-            career.callback();
         }
     }
 }

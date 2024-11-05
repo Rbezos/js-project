@@ -22,7 +22,7 @@ export function createFooter() {
     footer.innerHTML = `
         <div class="container">
             <div>
-                <h1>Get in Touch</h1>
+                <h1>GET IN TOUCH</h1>
                 <p>"Are you looking for a passionate and committed web developer? Do not hesitate to contact me to talk about how I can contribute to your team with innovative and effective solutions."</p>
                 <div class="social_networks">
                     <div>

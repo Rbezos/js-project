@@ -3,12 +3,21 @@ export function createProjects() {
 
     const style = document.createElement('link');
     style.rel = 'stylesheet';
-    style.href = '../public/styles/sidebar.css';
+    style.href = '../public/styles/proyects.css';
     document.head.appendChild(style);
 
     projects.innerHTML = `
-        PROYECTOS
+        <div class="section">
+            <div>
+                <div class="title">PROYECT</div>
+            </div>
+        </div>
     `;
 
-    return projects;
+    return {
+        html: projects,
+        callback: () => {
+
+        }
+    };
 }
