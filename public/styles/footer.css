@@ -1,13 +1,28 @@
 #main-footer {
     .container {
         background: var(--primary-color);
-        padding: 1rem;
+        padding: 4rem 0rem;
         display: flex;
         align-items: center;
-        justify-content:space-around;
+        justify-content: center;
+        gap: 10rem;
         .container_links {
             display: flex;
             align-items: center;
+            gap: 1rem;
+            div {
+                background: linear-gradient(90deg, rgba(255, 162, 0, 1) 0%, rgba(255, 80, 0, 1) 50%);
+                padding: 4rem;
+                border-radius: 0.1rem;
+                white-space: nowrap;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
+                width: 50%;
+                cursor: pointer;
+                font-weight: 600;
+                box-shadow: 10px 10px 10px 0px rgb(197 53 53);
+            }
         }
         .social_networks {
             display: flex;
@@ -15,7 +30,8 @@
             justify-content: start;
             gap: 1rem;
             div {
-                background-color: red;
+                background: rgb(255,162,0);
+                background: linear-gradient(90deg, rgba(255,162,0,1) 0%, rgba(255,80,0,1) 50%);
                 width: auto;
                 border-radius: 0.2rem;
                 display: flex;
